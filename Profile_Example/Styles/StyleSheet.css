@@ -1,0 +1,149 @@
+﻿body {
+    background-color: white;
+    background-image: url("../pics/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.menu {
+
+    position: fixed;
+    right: 1%;
+    display: inline-block;
+    margin-top: 20px;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("../pics/hw.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+    
+    border-bottom: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+
+    width: 17%;
+    min-height: 300px;
+    padding: 10px;
+}
+
+    .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+
+        border-radius: 15px 15px 0 0;
+        
+    }
+
+        .menu ul li {
+            border-radius: 3px;
+            border-left: 4px solid white;
+            border-right: 4px solid white;
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        .menu ul li:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            margin-left: 20px;
+        }
+            .menu ul li a {
+                display: block;
+                padding: 10px;
+                font-family: 'UnifrakturCook', cursive;
+                text-decoration: none;
+                color: white;
+            }
+
+.content {
+    width: 75%;
+    display: inline-block;
+
+    background-size: cover;
+    position: relative;
+    margin-top: 20px;
+
+    min-height: 600px;
+
+    box-shadow: 0 0 10px black;
+
+    padding: 20px;
+}
+
+    .content > h1 {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'UnifrakturCook', cursive;
+        text-shadow: 1px 1px 10px white;
+    }
+
+    .content > div, .content > h1 {
+        border-right: 4px solid rgba(255, 255, 255, 0.8);
+        border-left: 4px solid rgba(255, 255, 255, 0.8);
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+
+
+.abstract {
+    padding: 10px;
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+    .abstract > * {
+        display: inline-block;
+    }
+
+    
+
+.profilePic {
+    width: 200px;
+
+    border: 2px solid white;
+    border-radius: 15px 0 15px 0;
+}
+
+.abstract > ul {
+    position: absolute;
+    left: 250px;
+    margin-top: 70px;
+
+    width: 300px;
+
+    list-style: none;
+    padding: 0;
+
+    
+}
+
+.abstract ul li {
+    margin-bottom: 20px;
+}
+
+.abstract h2 {
+    position: absolute;
+    left: 250px;
+}
+
+.disc {
+    font-family: 'UnifrakturMaguntia', cursive;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+    .disc > h2 {
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+
+    .disc > p {
+        margin-bottom: 20px;
+        padding-bottom: 30px;
+    }
+
+    .disc > * {
+        margin-left: 20px;
+        margin-right: 20px;
+    }

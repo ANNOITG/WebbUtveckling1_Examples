@@ -1,0 +1,64 @@
+body {
+    background-color: #000;
+    background-image: url("bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content
+{
+    background-color: rgba(0, 0 ,0, 0.5);
+    width: 800px;
+    height: 800px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#header
+{
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 20px;
+    box-shadow: inset -4px -4px 3px black;
+    height: 100px;
+    width: 790px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#header > ul
+{
+    position: relative;
+    width: 230px;
+    margin: 0 auto;
+    padding-top: 20px;
+    list-style: none;
+}
+
+#header > ul li
+{
+    margin-left: 0;
+    padding: 10px;
+    display: inline-block;
+}
+
+    #header > ul li:hover {
+        background-color: rgba(255,255,255,0.4);
+    }
+
+#theRest
+{
+    position: relative;
+    width: 650px;
+    margin: 0 auto;
+}
+
+#theRest .article
+{
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 20px;
+    margin: 2px;
+    padding: 5px;
+    display: inline-block;
+    
+    box-shadow: inset -3px -3px 3px black;
+}

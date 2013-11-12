@@ -1,0 +1,51 @@
+﻿body {
+    background-image: url("englishPub.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    min-height: 600px;
+    position: relative;
+}
+
+
+.menyWrapper {
+    min-height: 50px;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.24);
+    padding: 5px;
+    border-radius: 30px 0 30px 0;
+}
+
+    .menyWrapper ul {
+        padding: 0;
+        list-style: none;
+        color: White;
+    }
+
+        .menyWrapper ul li {
+
+            margin-left: 30px;
+            
+            display: inline-block;
+            height: 20px;
+            border: 1px solid white;
+            border-radius: 15px;
+            width: 100px;
+            height: 40px;
+
+            font-size: 30px;
+            text-align: center;
+
+            font-family: 'Pirata One', cursive;
+
+            box-shadow: inset -3px -3px 10px white;
+        }
+
+.contentWrapper {
+    min-height: 500px;
+}

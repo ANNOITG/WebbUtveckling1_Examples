@@ -1,0 +1,26 @@
+﻿body {
+    background-color: black;
+}
+
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    min-height: 600px;
+    background-color: gray;
+}
+
+.meny {
+    height: 100px;
+    background-color: white;
+}
+
+.MenyList {
+    padding: 0;
+    list-style: none;
+}
+
+.MenyList li {
+    display: inline-block;
+
+}
